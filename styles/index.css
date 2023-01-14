@@ -1,0 +1,120 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+/* common tag  */
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+/* header section  */
+header{
+    background-color: #FFF4E7;
+}
+
+.nav-title h3{
+    color: #131313;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 20px 220px 50px 220px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.nav-items a{
+    text-decoration: none;
+    color: #424242;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.nav-items{
+    /* margin-top: 35px; */
+    text-align: center;
+    
+}
+
+.header-container{
+    text-align: center;
+    margin: 40px 500px 20px 500px;
+}
+.header-title{
+    font-size: 43px;
+    font-weight: 700;
+    text-align: center;
+}
+.header-details{
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+    padding: 30px;
+}
+.primary-btn{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.banner-image img{
+    width: 1440px;
+    width: 700px;
+    margin: 25px 240px 30px 320px;
+}
+
+/*--------------------------- Responsive ------------------------ */
+@media only screen and(max-width:688px) {
+
+.navbar{
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+}
+
+
+/*----------------------- main start --------------------- */
+
+.meeting-picture img{
+    width: 342px;
+    height: 342px;
+}
+
+.meeting-picture{
+    display: grid;
+    grid-template-columns:repeat(2,350px);
+    grid-gap: 10px;
+}
+
+.picture-container{
+    margin: 30px 80px 20px 80px;
+    display: flex;
+}
+.meeting-info{
+    padding: 200px 20px 20px 40px;
+}
+.yellow{
+    color:  #FF900E;
+}
+.black{
+    color: #131313;
+}
+.gray{
+    color: #727272;
+}
+.meeting-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.meeting-details{
+    font-size: 16px;
+    color:  #727272;
+    padding: 20px;
+}
