@@ -94,7 +94,7 @@ header{
 }
 
 .picture-container{
-    margin: 30px 80px 20px 80px;
+    margin: 30px 80px 40px 80px;
     display: flex;
 }
 .meeting-info{
@@ -116,5 +116,84 @@ header{
 .meeting-details{
     font-size: 16px;
     color:  #727272;
-    padding: 20px;
+    padding: 10px;
+}
+.feature-title{
+    border-left: 5px solid  #FF900E;
+    font-size: 60px;
+    color: #131313;
+    padding: 0px 0px 0px 5px;
+}
+.features-container{
+    margin:20px 150px 30px 150px;
+    display: flex;
+}
+.feature-image img{
+    width: 500px;
+    height: 659px;
+}
+.feature-description{
+    margin: 20px ;
+    color: #727272;
+}
+
+.sub-details{
+    margin:20px;
+    color: #727272;
+}
+.sub-title{
+    margin: 0px 0px 0px 20px;
+    color: #131313;
+}
+.features-details{
+    margin-top: 10px;
+}
+
+.primary-2{
+    background-color: #FF900E;
+    border: none;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    margin: -70px 0px 0px -70px;
+
+}
+#button-sub{
+    font-size: 18px;
+}
+
+/*............................. fact section........................ */
+
+.facts-container{
+    margin:50px 170px 50px 170px;
+}
+.fact-title{
+color: #131313;
+font-size: 30px;
+font-weight:700;
+}
+.fact-info{
+    margin: 50px 0px 50px 0px;
+}
+
+.fact-details{
+    margin: 20px 0px 20px 0px;
+    width: 400px;
+}
+.fact-items{
+    display: flex;
+    
+}
+.fact-item{
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.number{
+    
 }
