@@ -52,6 +52,9 @@ header{
     font-weight: 400;
     color: #727272;
     padding: 30px;
+    width: 300px;
+   
+  
 }
 .primary-btn{
     color: #FFFFFF;
@@ -69,15 +72,6 @@ header{
     margin: 25px 240px 30px 320px;
 }
 
-/*--------------------------- Responsive ------------------------ */
-@media only screen and(max-width:688px) {
-
-.navbar{
-    justify-content: flex-end;
-    font-size: 20px;
-}
-
-}
 
 
 /*----------------------- main start --------------------- */
@@ -181,6 +175,7 @@ font-weight:700;
 .fact-details{
     margin: 20px 0px 20px 0px;
     width: 400px;
+    font-size: 18px;
 }
 .fact-items{
     display: flex;
@@ -190,10 +185,101 @@ font-weight:700;
     border: 1px solid #FF900E;
     text-align: center;
     padding: 10px;
-    margin: 50px;
+    margin: 60px;
     border-radius: 10px;
 }
 
-.number{
-    
+ /* .....................Sopnsor start.........................  */
+ .sponspors{
+    text-align: center;
+ }
+
+ .sponspors-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+ }
+ .sponspors-description{
+    font-size: 18px;
+    color: #727272;
+ }
+ .partner-container{
+    display: flex;
+    margin: 50px 150px 50px 100px;
+ }
+ .partner{
+    padding: 30px;
+ }
+
+  /* ............................footer start ............................. */
+ footer{
+    background-color: #FFF4E7;
+    width: 900px;
+    text-align: center;
+    margin: 5px 200px 30px 200px;
+    border-radius: 10px;
+ }
+
+ .footer-details{
+    padding: 20px 40px 20px 40px;
+
+ }
+
+  /*........................ Extra form  .........................*/
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    row-gap: 10px;
+    border-radius: 10px;
 }
+.contact-form input{
+    padding: 10px;
+    /* background-color: #727272; */
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid ;
+}
+#name{
+    color: #FF900E;
+}
+
+.contact-container{
+    display: flex;
+    margin: 30px 100px 50px 150px;
+}
+
+.contact-image img{
+    padding-left: 30px;
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.primary-btn1{
+    width: 20%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF900E;
+    color: #FFFFFF;
+}
+
+ /*--------------------------- Responsive ------------------------ */
+@media only screen and(max-width:688px) {
+
+    .navbar{
+        justify-content: flex-end;
+        font-size: 20px;
+    }
+    
+    }
+    
+
+
